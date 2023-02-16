@@ -1,0 +1,142 @@
+body{
+    margin: 0;  
+    background-color: #121212
+}
+
+section{
+    display: flex; 
+    flex-direction: column; 
+    height: 100%; 
+    width: 100%;
+}
+
+#welcomeCard{
+    position: absolute;
+    top: 9px;
+    right: 40%;
+    background-color: rgba(42,13,93,0.85);
+    padding: 5px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: #0f0;
+    margin-left: 0.5%;
+}
+
+figure{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+
+figcaption{
+    color: #5c8a27;
+    font-size: 40px;
+}
+
+h3{
+    margin: 0px;
+}
+
+.insiderDivisor{
+    height:2px;
+    width: 100%;
+    border-width:0;
+    background-color:#f90;
+    margin: 0;
+}
+
+#welcomeText{
+    font-size: 20px; 
+    margin-top: 25px;
+    max-height: 442px;
+    overflow: auto; 
+    color: azure;
+}
+
+#translateDiv{
+    background-color: rgba(12,18,18,1); 
+    position: absolute;
+    top: 9px;
+    right: 10%;
+    border-radius: 12px; padding-left: 5px;
+}
+
+.communText{
+    color: azure;  
+}
+
+.outsiderDivisor{
+    height:2px;
+    width: 99%;
+    border-width:0;
+    background-color:#0f0;
+    margin-top: 0;
+}
+
+.specialCard{
+    color: darkgray; 
+    min-width: 10%; 
+    max-width: 50%; 
+    padding: 15px; 
+    padding-top: 0;
+    border-radius: 5px;
+    border-style: double;
+    border-color: #f90;
+    background-color: rgba(42,13,93,0.2);
+    align-self: center;
+}
+
+.cardTitle{
+    color: #0f0;
+}
+
+.cardInsidetitle{
+    color: #5c8a27;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardGroupDiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    color: darkgray;  
+    max-width: fit-content; 
+    padding: 15px; 
+    padding-top: 0;
+    border-radius: 5px;
+    border-style: double;
+    border-color: #2A0D5D;
+    background-color: rgba(42,13,93,0.05);
+}
+
+a:link{
+    color: #FFA500;
+}
+
+a:visited{
+    color: #050;
+}
+
+@media (max-width: 767px) {
+    #welcomeCard {
+      right: 10%;
+    }
+  
+    .cardGroupDiv {
+      flex-direction: column;
+    }
+  
+    .card {
+      max-width: 100%;
+    }
+}
+  
