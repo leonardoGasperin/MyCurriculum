@@ -131,6 +131,10 @@ a:visited{
 }
 
 @media (max-width: 767px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
     #welcomeCard {
       right: 10%;
     }
@@ -142,5 +146,35 @@ a:visited{
     .card {
       max-width: 100%;
     }
+
+    .projectsDiv{
+        display: flex!important;
+        flex-wrap: wrap;
+    }
 }
+@media (max-width: 425px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    #welcomeCard {
+      right: 10%;
+    }
   
+    .cardGroupDiv {
+      flex-direction: column;
+    }
+  
+    .card {
+      max-width: 100%;
+    }
+
+    .projects{
+        width: 100%;
+    }
+    .projectsDiv{
+        display: flex!important;
+        flex-wrap: wrap;
+    }
+} 
