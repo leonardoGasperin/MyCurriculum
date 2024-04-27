@@ -44,6 +44,7 @@
     </section>
     <hr class="outsiderDivisor">
     <main>
+        <button onclick="TheDoidoQueVaiFazerOFech()">StarIS Character</button>
         <h4 class="cardTitle" style="padding-top: 5px; padding-bottom: 10px; margin: 0; background-color: #2A0D5D;" align="center">Projetos em destaque</h4>
         <div class="projects" style="display: grid; align-self: center; width: 100%;  background-color: #2A0D5D; margin-bottom: 10px; margin-top: 0px;">
             <div class="projectsDiv" style="display: flex; justify-content: center; gap: 2rem;">
@@ -259,3 +260,19 @@
     </footer>
 </body>
 </html>
+<script>
+   function TheDoidoQueVaiFazerOFech(){
+    fetch("https://staris-api.runasp.net/api/characters")
+    .then(response => {
+        if (!response.ok) {
+        throw new Error('Erro ao fazer requisição: ' + response.status);
+        }
+        return response.json();
+    })
+    .then(data => {
+        if(data != null && data != undefined){
+            console.log(data);
+        }
+    })
+   }
+</script>
