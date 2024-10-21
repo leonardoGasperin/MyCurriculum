@@ -49,7 +49,7 @@ h3{
     margin: 0;
 }
 
-#welcomeText{
+.welcomeText{
     font-size: 20px; 
     margin-top: 25px;
     max-height: 442px;

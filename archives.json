@@ -1,0 +1,863 @@
+{
+    "secoes":
+    [
+        {
+            "titulo": "Leonardo Vinicius de Gasperin",
+            "textoBr": "Ola, Mundo! Tenho 31 anos Resido em Foz do Iguaçu-PR, Brasil e atualmente atuo como Desenvolvedor web e de Sistemas. certificado em Engenheiro+de Software como desenvolvedor Full Stack, pelo DevInHouse[EDP] - SESI/SENAI e futuramente pela Universidade Claretiano. Minha paixão por computação e tecnologia vem de muito tempo. Sempre gostei de desafios que envolvem raciocínio lógico e resolução de problemas, como puzzles e jogos de estratégia. Foi essa afinidade que me levou a seguir a carreira de desenvolvedor de software, onde encontrei a oportunidade perfeita para unir criatividade e lógica na construção de soluções inovadoras.",
+            "textoEn": "Hello, World! I am 31 years old, living in Foz do Iguaçu-PR, Brazil, and currently working as a Web and Systems Developer. I am certified as a Software Engineer and Full Stack Developer by DevInHouse[EDP] - SESI/SENAI and soon by Claretiano University. My passion for computing and technology has been with me for a long time. I've always enjoyed challenges that involve logical reasoning and problem-solving, like puzzles and strategy games. This affinity led me to pursue a career as a software developer, where I found the perfect opportunity to combine creativity and logic in building innovative solutions."
+        },
+        {
+            "tituloBr": "Experiência profissional",
+            "tituloEn": "Professional Experience",
+            "components":
+            [
+                {
+                    "textoBr":
+                    [
+                        {
+                            "item": "Desenvolvedor Full Stack Jr (dotnet) - ICI Instituto de Cidades Inteligentes (Curitiba), Junho 2024 - Atualmente.",
+                            "link": ""
+                        },
+                        {
+                            "item": "Analísta e Desenvolvedor fullstack Jr (dotnet) - programador.tv Outubro 2022 a 29 de Março de 2024.",
+                            "link": ""
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Junior Full Stack Developer (Dotnet) - ICI Instituto de Cidades Inteligentes (Curitiba), June 2024 to Present.",
+                            "link": ""
+                        },
+                        {
+                            "item": "Junior Fullstack Analyst and Developer (dotnet) - programador.tv October 2022 to 03/29/2024.",
+                            "link": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tituloBr": "Educação e certificações",
+            "tituloEn": "Education and certifications",
+            "components":
+            [
+                {
+                    "textoBr":
+                    [
+                        {
+                            "item": "Desenvolvedor Full stack DevInHouse[EDP] SESI/SENAI-SC 2022/2023",
+                            "link": "https://sgn.sesisenai.org.br/arquivos/certificacao/36/4c/1a/364c1a5b1b7285327ab9bd10eff52184/pfx9346935455688736227sfx.pdf"
+                        },
+                        {
+                            "item": "Universidade Claretiano - Batatais, SP. Graduação em Análise e Desenvolvimento de Sistemas - Terceiro período.",
+                            "link": ""
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Desenveloper Full stack DevInHouse[EDP] SESI/SENAI-SC 2022/2023",
+                            "link": "https://sgn.sesisenai.org.br/arquivos/certificacao/36/4c/1a/364c1a5b1b7285327ab9bd10eff52184/pfx9346935455688736227sfx.pdf"
+                        },
+                        {
+                            "item": "University Claretiano - Batatais, SP. Bachelor's Degree in Analysis and Systems Development - Third semester.",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "textoBr":
+                    [
+                        {
+                            "item": "Learn Intermediate Unity C# Coding on 31/12/2019",
+                            "link": "https://www.udemy.com/certificate/UC-SL4WL76W/"
+                        },
+                        {
+                            "item": "C++: From Beginner to Expert on 05/03/2016",
+                            "link": "https://www.udemy.com/certificate/UC-LRHX4X6F/"
+                        },
+                        {
+                            "item": "Naked C#: A Beginner's Guide to Coding on 10/05/2019",
+                            "link": "https://www.udemy.com/certificate/UC-F7XJLX7R/"
+                        },
+                        {
+                            "item": "Unity 2D - Aprenda Game Design e Crie Seu Primeiro Jogo on 08/25/2019",
+                            "link": "https://www.udemy.com/certificate/UC-ZI2NNKDZ/"
+                        },
+                        {
+                            "item": "Mathematics for Computer Games Development using Unity on 09/26/2019",
+                            "link": "https://www.udemy.com/certificate/UC-KG88HQSP/"
+                        },
+                        {
+                            "item": "Linux System Programming using C and C++(Practical Approach) on 02/15/2023",
+                            "link": "https://www.udemy.com/certificate/UC-1bccf4e0-1049-496f-b46b-b4dd652bcf18/"
+                        },
+                        {
+                            "item": "The Beginner's Guide to Artificial Intelligence (Unity 2022) on 02/15/2023",
+                            "link": "https://www.udemy.com/certificate/UC-48b3a94a-3fde-40e9-b827-8898e6bba0f8/"
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Learn Intermediate Unity C# Coding on 31/12/2019",
+                            "link": "https://www.udemy.com/certificate/UC-SL4WL76W/"
+                        },
+                        {
+                            "item": "C++: From Beginner to Expert on 05/03/2016",
+                            "link": "https://www.udemy.com/certificate/UC-LRHX4X6F/"
+                        },
+                        {
+                            "item": "Naked C#: A Beginner's Guide to Coding on 10/05/2019",
+                            "link": "https://www.udemy.com/certificate/UC-F7XJLX7R/"
+                        },
+                        {
+                            "item": "Unity 2D - Aprenda Game Design e Crie Seu Primeiro Jogo on 08/25/2019",
+                            "link": "https://www.udemy.com/certificate/UC-ZI2NNKDZ/"
+                        },
+                        {
+                            "item": "Mathematics for Computer Games Development using Unity on 09/26/2019",
+                            "link": "https://www.udemy.com/certificate/UC-KG88HQSP/"
+                        },
+                        {
+                            "item": "Linux System Programming using C and C++(Practical Approach) on 02/15/2023",
+                            "link": "https://www.udemy.com/certificate/UC-1bccf4e0-1049-496f-b46b-b4dd652bcf18/"
+                        },
+                        {
+                            "item": "The Beginner's Guide to Artificial Intelligence (Unity 2022) on 02/15/2023",
+                            "link": "https://www.udemy.com/certificate/UC-48b3a94a-3fde-40e9-b827-8898e6bba0f8/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "tituloBr": "Projetos publicos",
+            "tituloEn": "Public Projects",
+            "components":
+            [
+                {
+                    "textoBr":
+                    [
+                        {
+                            "item": "Desafio Balta May the Fourht (StarIS)",
+                            "link": "https://github.com/alehRodrigues/desafio-balta-may-the-fourth-backend"
+                        },
+                        {
+                            "item": "LabSchoolAPI",
+                            "link": "https://github.com/leonardoGasperin/LabSchoolAPI"
+                        },
+                        {
+                            "item": "DevInKnowledge",
+                            "link": "https://github.com/leonardoGasperin/DevInKnowledge"
+                        },
+                        {
+                            "item": "ProjectPAY",
+                            "link": "https://github.com/leonardoGasperin/ProjectPAY"
+                        },
+                        {
+                            "item": "DevInDocuments",
+                            "link": "https://github.com/leonardoGasperin/DevInDocuments"
+                        },
+                        {
+                            "item": "CEDPAPISolution",
+                            "link": "https://github.com/leonardoGasperin/CEDPAPISolution"
+                        },
+                        {
+                            "item": "LearningAPI",
+                            "link": "https://github.com/leonardoGasperin/LearningAPI"
+                        },
+                        {
+                            "item": "RPGTest2(Unconscious-Dream)",
+                            "link": "https://github.com/leonardoGasperin/RPGTest2"
+                        },
+                        {
+                            "item": "RogueLike",
+                            "link": "https://github.com/leonardoGasperin/RogueLike"
+                        },
+                        {
+                            "item": "BullCowGame",
+                            "link": "https://github.com/leonardoGasperin/BullCowGame"
+                        },
+                        {
+                            "item": "ExerciciosCap4(Programming Principles and Pratices with C++)",
+                            "link": "https://github.com/leonardoGasperin/ExerciciosCap4"
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Balta challenge May the Fourht (StarIS)",
+                            "link": "https://github.com/alehRodrigues/desafio-balta-may-the-fourth-backend"
+                        },
+                        {
+                            "item": "LabSchoolAPI",
+                            "link": "https://github.com/leonardoGasperin/LabSchoolAPI"
+                        },
+                        {
+                            "item": "DevInKnowledge",
+                            "link": "https://github.com/leonardoGasperin/DevInKnowledge"
+                        },
+                        {
+                            "item": "ProjectPAY",
+                            "link": "https://github.com/leonardoGasperin/ProjectPAY"
+                        },
+                        {
+                            "item": "DevInDocuments",
+                            "link": "https://github.com/leonardoGasperin/DevInDocuments"
+                        },
+                        {
+                            "item": "CEDPAPISolution",
+                            "link": "https://github.com/leonardoGasperin/CEDPAPISolution"
+                        },
+                        {
+                            "item": "LearningAPI",
+                            "link": "https://github.com/leonardoGasperin/LearningAPI"
+                        },
+                        {
+                            "item": "RPGTest2(Unconscious-Dream)",
+                            "link": "https://github.com/leonardoGasperin/RPGTest2"
+                        },
+                        {
+                            "item": "RogueLike",
+                            "link": "https://github.com/leonardoGasperin/RogueLike"
+                        },
+                        {
+                            "item": "BullCowGame",
+                            "link": "https://github.com/leonardoGasperin/BullCowGame"
+                        },
+                        {
+                            "item": "ExerciciosCap4(Programming Principles and Pratices with C++)",
+                            "link": "https://github.com/leonardoGasperin/ExerciciosCap4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tituloBr": "Habilidades",
+            "tituloEn": "Skills",
+            "components":
+            [
+                {
+                    "textoBr":
+                    [
+                        {
+                            "item": "Desenvolvimento de software Fullstack",
+                            "link": ""
+                        },
+                        {
+                            "item": "Desenvolvimento de aplicativos móveis com React-Native, React e ReactJS",
+                            "link": ""
+                        },
+                        {
+                            "item": "Conhecimento de ASP.NET para desenvolvimento web",
+                            "link": ""
+                        },
+                        {
+                            "item": "Experiência em desenvolvimento de jogos com as linguagens de programação C e C#",
+                            "link": ""
+                        },
+                        {
+                            "item": "Habilidade de análise de requisitos e especificações de projetos",
+                            "link": ""
+                        },
+                        {
+                            "item": "Conhecimento de metodologias ágeis de desenvolvimento de software, como Scrum e Kanban",
+                            "link": ""
+                        },
+                        {
+                            "item": "Familiaridade com bancos de dados relacionais",
+                            "link": ""
+                        },
+                        {
+                            "item": "Habilidade em resolução de problemas e pensamento analítico",
+                            "link": ""
+                        },
+                        {
+                            "item": "Conhecimento em práticas de testes de software e depuração de código",
+                            "link": ""
+                        },
+                        {
+                            "item": "Habilidade em trabalhar em equipe e comunicação eficaz",
+                            "link": ""
+                        },
+                        {
+                            "item": "Conhecimento em desenvolvimento de jogo em C# utilizando Unity",
+                            "link": ""
+                        },
+                        {
+                            "item": "Domínio da linguagem de programação C#",
+                            "link": ""
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Fullstack software development",
+                            "link": ""
+                        },
+                        {
+                            "item": "Mobile app development with React-Native, React, and ReactJS",
+                            "link": ""
+                        },
+                        {
+                            "item": "Knowledge of ASP.NET for web development",
+                            "link": ""
+                        },
+                        {
+                            "item": "Experience in game development using C and C# programming languages",
+                            "link": ""
+                        },
+                        {
+                            "item": "Requirements analysis and project specification skills",
+                            "link": ""
+                        },
+                        {
+                            "item": "Familiarity with agile software development methodologies such as Scrum and Kanban",
+                            "link": ""
+                        },
+                        {
+                            "item": "Familiarity with relational databases",
+                            "link": ""
+                        },
+                        {
+                            "item": "Problem-solving and analytical thinking skills",
+                            "link": ""
+                        },
+                        {
+                            "item": "Knowledge of software testing practices and code debugging",
+                            "link": ""
+                        },
+                        {
+                            "item": "Teamwork and effective communication skills",
+                            "link": ""
+                        },
+                        {
+                            "item": "Knowledge of game development in C# using Unity",
+                            "link": ""
+                        },
+                        {
+                            "item": "Mastery of the C# programming language",
+                            "link": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tituloBr": "Conhecimentos técnico",
+            "tituloEn": "Technical knowledge",
+            "components":
+            [
+                {
+                    "textoBr":
+                    [
+                        {
+                            "item": "C#",
+                            "link": ""
+                        },
+                        {
+                            "item": ".NET Core",
+                            "link": ""
+                        },
+                        {
+                            "item": ".NET Framework",
+                            "link": ""
+                        },
+                        {
+                            "item": "ASP.NET Core",
+                            "link": ""
+                        },
+                        {
+                            "item": "RESTful API",
+                            "link": ""
+                        },
+                        {
+                            "item": "Minimal API",
+                            "link": ""
+                        },
+                        {
+                            "item": "TDD",
+                            "link": ""
+                        },
+                        {
+                            "item": "Testes Unitários",
+                            "link": ""
+                        },
+                        {
+                            "item": "C",
+                            "link": ""
+                        },
+                        {
+                            "item": "Razor Pages",
+                            "link": ""
+                        },
+                        {
+                            "item": "Blazor",
+                            "link": ""
+                        },
+                        {
+                            "item": "HTML5",
+                            "link": ""
+                        },
+                        {
+                            "item": "CSS3",
+                            "link": ""
+                        },
+                        {
+                            "item": "Bootstrap 5.3.3",
+                            "link": ""
+                        },
+                        {
+                            "item": "JS",
+                            "link": ""
+                        },
+                        {
+                            "item": "JQuery",
+                            "link": ""
+                        },
+                        {
+                            "item": "React",
+                            "link": ""
+                        },
+                        {
+                            "item": "React-Native",
+                            "link": ""
+                        },
+                        {
+                            "item": "RabbitMQ",
+                            "link": ""
+                        },
+                        {
+                            "item": "Algoritmos e estrutura de dados",
+                            "link": ""
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "C#",
+                            "link": ""
+                        },
+                        {
+                            "item": ".NET Core",
+                            "link": ""
+                        },
+                        {
+                            "item": ".NET Framework",
+                            "link": ""
+                        },
+                        {
+                            "item": "ASP.NET Core",
+                            "link": ""
+                        },
+                        {
+                            "item": "RESTful API",
+                            "link": ""
+                        },
+                        {
+                            "item": "Minimal API",
+                            "link": ""
+                        },
+                        {
+                            "item": "TDD",
+                            "link": ""
+                        },
+                        {
+                            "item": "Unit Test",
+                            "link": ""
+                        },
+                        {
+                            "item": "C",
+                            "link": ""
+                        },
+                        {
+                            "item": "Razor Pages",
+                            "link": ""
+                        },
+                        {
+                            "item": "Blazor",
+                            "link": ""
+                        },
+                        {
+                            "item": "HTML5",
+                            "link": ""
+                        },
+                        {
+                            "item": "CSS3",
+                            "link": ""
+                        },
+                        {
+                            "item": "Bootstrap 5.3.3",
+                            "link": ""
+                        },
+                        {
+                            "item": "JS",
+                            "link": ""
+                        },
+                        {
+                            "item": "JQuery",
+                            "link": ""
+                        },
+                        {
+                            "item": "React",
+                            "link": ""
+                        },
+                        {
+                            "item": "React-Native",
+                            "link": ""
+                        },
+                        {
+                            "item": "RabbitMQ",
+                            "link": ""
+                        },
+                        {
+                            "item": "Algorithms and data structures",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "textoBr":
+                    [
+                        {
+                            "item": "Visual Studio",
+                            "link": ""
+                        },
+                        {
+                            "item": "Visual Studio Code",
+                            "link": ""
+                        },
+                        {
+                            "item": "GIT",
+                            "link": ""
+                        },
+                        {
+                            "item": "GitHub Actions",
+                            "link": ""
+                        },
+                        {
+                            "item": "CI/CD",
+                            "link": ""
+                        },
+                        {
+                            "item": "Docker",
+                            "link": ""
+                        },
+                        {
+                            "item": "Azure",
+                            "link": ""
+                        },
+                        {
+                            "item": "Digital Ocean",
+                            "link": ""
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Visual Studio",
+                            "link": ""
+                        },
+                        {
+                            "item": "Visual Studio Code",
+                            "link": ""
+                        },
+                        {
+                            "item": "GIT",
+                            "link": ""
+                        },
+                        {
+                            "item": "GitHub Actions",
+                            "link": ""
+                        },
+                        {
+                            "item": "CI/CD",
+                            "link": ""
+                        },
+                        {
+                            "item": "Docker",
+                            "link": ""
+                        },
+                        {
+                            "item": "Azure",
+                            "link": ""
+                        },
+                        {
+                            "item": "Digital Ocean",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "textoBr":
+                    [
+                        {
+                            "item": "SQL Server",
+                            "link": ""
+                        },
+                        {
+                            "item": "SQLite",
+                            "link": ""
+                        },
+                        {
+                            "item": "MSSQL",
+                            "link": ""
+                        },
+                        {
+                            "item": "DBeaver",
+                            "link": ""
+                        },
+                        {
+                            "item": "PostGre",
+                            "link": ""
+                        },
+                        {
+                            "item": "SQLite",
+                            "link": ""
+                        },
+                        {
+                            "item": "Postman",
+                            "link": ""
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "SQL Server",
+                            "link": ""
+                        },
+                        {
+                            "item": "SQLite",
+                            "link": ""
+                        },
+                        {
+                            "item": "MSSQL",
+                            "link": ""
+                        },
+                        {
+                            "item": "DBeaver",
+                            "link": ""
+                        },
+                        {
+                            "item": "PostGre",
+                            "link": ""
+                        },
+                        {
+                            "item": "SQLite",
+                            "link": ""
+                        },
+                        {
+                            "item": "Postman",
+                            "link": ""
+                        } 
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "id": 7,
+            "tituloBr": "Biblioteca Pessoal",
+            "tituloEn": "Personal library",
+            "components":
+            [
+                {
+                    "subtituloBr": "Programação",
+                    "subtituloen": "Programming",
+                    "textoBr":
+                    [
+                        {
+                            "item": "Programming Principles and Practicles Using C++, Bjarne Stroustrup The creator of C++ - 2º Ed. Addison Wesley",
+                            "link": "https://www.pearson.com/en-us/subject-catalog/p/programming-principles-and-practice-using-c/P200000000631?view=educator"
+                        },
+                        {
+                            "item": "Android Essencial com KOTLIN, Ricardo R. Lecheta - Novatec",
+                            "link": "https://novatec.com.br/livros/android-essencial-com-kotlin-2ed/"
+                        },
+                        {
+                            "item": "Universo Java, Rodrigo Gonçalves Porto da Costa - Digeratibooks",
+                            "link": "https://www.estantevirtual.com.br/livros/rodrigo-goncalves-porto-da-costa/universo-java/1968705140"
+                        },
+                        {
+                            "item": "Oracle DBA Essencial vol1. SQL, Eduardo Terra Morelli - Brasport",
+                            "link": "https://books.google.com.br/books/about/Oracle_DBA_Essencial_Vol_1.html?hl=pt-BR&amp;id=alKECgAAQBAJ&amp;redir_esc=y"
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Programming Principles and Practicles Using C++, Bjarne Stroustrup The creator of C++ - 2º Ed. Addison Wesley",
+                            "link": "https://www.pearson.com/en-us/subject-catalog/p/programming-principles-and-practice-using-c/P200000000631?view=educator"
+                        },
+                        {
+                            "item": "Android Essencial com KOTLIN, Ricardo R. Lecheta - Novatec",
+                            "link": "https://novatec.com.br/livros/android-essencial-com-kotlin-2ed/"
+                        },
+                        {
+                            "item": "Universo Java, Rodrigo Gonçalves Porto da Costa - Digeratibooks",
+                            "link": "https://www.estantevirtual.com.br/livros/rodrigo-goncalves-porto-da-costa/universo-java/1968705140"
+                        },
+                        {
+                            "item": "Oracle DBA Essencial vol1. SQL, Eduardo Terra Morelli - Brasport",
+                            "link": "https://books.google.com.br/books/about/Oracle_DBA_Essencial_Vol_1.html?hl=pt-BR&amp;id=alKECgAAQBAJ&amp;redir_esc=y"
+                        }
+                    ]
+                },
+                {
+                	"subtituloBr": "Computação",
+                    "subtituloen": "Computation",
+                    "textoBr":
+                    [
+                        {
+                            "item": "Controlando versôes com Git e GitHub, Alexandre Aquiles, Rodrigo Ferreira - Casa do Codigo",
+                            "link": "https://www.casadocodigo.com.br/pages/sumario-git-github"
+                        },
+                        {
+                            "item": "Sistemas Operacionais Modernos, Tanenbaum - 2º Ed. Pearson",
+                            "link": "https://www.cs.vu.nl/~ast/"
+                        },
+                        {
+                            "item": "Lançamento de Software, Chris Vander Mey - O'Reilly",
+                            "link": "https://www.oreilly.com/pub/au/5388"
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Controlando versôes com Git e GitHub, Alexandre Aquiles, Rodrigo Ferreira - Casa do Codigo",
+                            "link": "https://www.casadocodigo.com.br/pages/sumario-git-github"
+                        },
+                        {
+                            "item": "Sistemas Operacionais Modernos, Tanenbaum - 2º Ed. Pearson",
+                            "link": "https://www.cs.vu.nl/~ast/"
+                        },
+                        {
+                            "item": "Lançamento de Software, Chris Vander Mey - O'Reilly",
+                            "link": "https://www.oreilly.com/pub/au/5388"
+                        }
+                    ]
+                },
+                {
+                	"subtituloBr": "Desenvolvimento de jogos",
+                    "subtituloen": "Game development",
+                    "textoBr":
+                    [
+                        {
+                            "item": "Learn Game Development (Desenvolvimento enxuto de jogos), Julia Naomi Boeira - Casa do Código",
+                            "link": "https://www.casadocodigo.com.br/products/livro-lean-game-development"
+                        },
+                        {
+                            "item": "Designer de jogos Fundamentos, Antonio Julio Pescuite - Brasport",
+                            "link": "https://editorabrasport.com.br/design-de-jogos/"
+                        },
+                        {
+                            "item": "Mapa do jogo A diversidade cultural dos games, Lucia Santaella e Mirna Feitoza - Cengage Learning (Série profissional)",
+                            "link": "https://www.cengage.com.br/livro/mapa-do-jogo/"
+                        },
+                        {
+                            "item": "Introdução ao desenvolvimento de Games: Volume 1 Entendendo o universo de jogos, Steve Rabin - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-1/"
+                        },
+                        {
+                            "item": "Introdução ao desenvolvimento de Games: Volume 2 Programação: Técnica, Linguagem e Arquitetura, Steve Rabin - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-2/"
+                        },
+                        {
+                            "item": "Introdução ao desenvolvimento de Games: Volume 3 Criação e produção audiovisual, Steve Rabin - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-3/"
+                        },
+                        {
+                            "item": "Introdução ao desenvolvimento de Games: Volume 4 A industria de jogos: Produção, Marketing, Comercialização e Direitos autorais, Steve Rabin - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-4/"
+                        },
+                        {
+                            "item": "Desenvolvimento de personagens e de narrativas para Games, Lee Sheldon - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/desenvolvimento-de-personagens-e-de-narrativas-para-games/"
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Learn Game Development (Desenvolvimento enxuto de jogos), Julia Naomi Boeira - Casa do Código",
+                            "link": "https://www.casadocodigo.com.br/products/livro-lean-game-development"
+                        },
+                        {
+                            "item": "Designer de jogos Fundamentos, Antonio Julio Pescuite - Brasport",
+                            "link": "https://editorabrasport.com.br/design-de-jogos/"
+                        },
+                        {
+                            "item": "Mapa do jogo A diversidade cultural dos games, Lucia Santaella e Mirna Feitoza - Cengage Learning (Série profissional)",
+                            "link": "https://www.cengage.com.br/livro/mapa-do-jogo/"
+                        },
+                        {
+                            "item": "Introdução ao desenvolvimento de Games: Volume 1 Entendendo o universo de jogos, Steve Rabin - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-1/"
+                        },
+                        {
+                            "item": "Introdução ao desenvolvimento de Games: Volume 2 Programação: Técnica, Linguagem e Arquitetura, Steve Rabin - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-2/"
+                        },
+                        {
+                            "item": "Introdução ao desenvolvimento de Games: Volume 3 Criação e produção audiovisual, Steve Rabin - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-3/"
+                        },
+                        {
+                            "item": "Introdução ao desenvolvimento de Games: Volume 4 A industria de jogos: Produção, Marketing, Comercialização e Direitos autorais, Steve Rabin - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-4/"
+                        },
+                        {
+                            "item": "Desenvolvimento de personagens e de narrativas para Games, Lee Sheldon - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/desenvolvimento-de-personagens-e-de-narrativas-para-games/"
+                        }
+                    ]
+                },
+                {
+                	"subtituloBr": "Posses",
+                    "subtituloen": "Possess",
+                    "textoBr":
+                    [
+                        {
+                            "item": "Desenvolvimento de games, Jeannie Novak - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/desenvolvimento-de-games"
+                        },
+                        {
+                            "item": "Clipper Versão Summer 87 Vol 2 Utilitarios construção de um sistema, Guia de programação, Antonio Geraldo da Rocha Vidal - 2º Ed. LTC",
+                            "link": "https://www.amazon.com.br/Clipper-Versao-Summer-87-V-2/dp/8521609191"
+                        },
+                        {
+                            "item": "Linguagem C Programação e Prática, Prof. Arthur Vargas Lopes, Prof. Bertilho Frederico Becker",
+                            "link": "https://www.traca.com.br/livro/558375/"
+                        },
+                        {
+                            "item": "Pascal E Técnicas de Programação Incluindo Turbo Pascal, Eber Assis Schmitz, Antônio Anibal de Souza Teles - 3º Ed. LTC",
+                            "link": "https://www.estantevirtual.com.br/livros/eber-assis-schmitz-antonio-anibal-de-souza-teles/pascal-e-tecnicas-de-programacao/1799343764?show_suggestion=0"
+                        }
+                    ],
+                    "textoEn": 
+                    [
+                        {
+                            "item": "Desenvolvimento de games, Jeannie Novak - 2º Ed. Cengage Learning",
+                            "link": "https://www.cengage.com.br/livro/desenvolvimento-de-games"
+                        },
+                        {
+                            "item": "Clipper Versão Summer 87 Vol 2 Utilitarios construção de um sistema, Guia de programação, Antonio Geraldo da Rocha Vidal - 2º Ed. LTC",
+                            "link": "https://www.amazon.com.br/Clipper-Versao-Summer-87-V-2/dp/8521609191"
+                        },
+                        {
+                            "item": "Linguagem C Programação e Prática, Prof. Arthur Vargas Lopes, Prof. Bertilho Frederico Becker",
+                            "link": "https://www.traca.com.br/livro/558375/"
+                        },
+                        {
+                            "item": "Pascal E Técnicas de Programação Incluindo Turbo Pascal, Eber Assis Schmitz, Antônio Anibal de Souza Teles - 3º Ed. LTC",
+                            "link": "https://www.estantevirtual.com.br/livros/eber-assis-schmitz-antonio-anibal-de-souza-teles/pascal-e-tecnicas-de-programacao/1799343764?show_suggestion=0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

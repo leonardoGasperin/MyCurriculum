@@ -6,26 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../../src/img/favicon/meufav.ico" type="image/x-icon">
     <link rel="stylesheet" href="../../../src/style/pageStyles.css">
+    <script src="../../../src/Components/initialization.js" defer></script>
     <title>Leonardo Gasperin</title>
 </head>
 <body>
-    <section style="display: flex; flex-direction: column; height: 100%; width: 100%;">
+    <section style="display: flex; flex-direction: column; height: 100%; width: 100%; margin-bottom: 7px;">
         <figure style="display: inline-block; position: relative; margin: 0;">
             <img src="../../../src/img/CurriculoBG.jpg" alt="CurriculoBG" width="100%" height="720"/>
             <div id="welcomeCard">
                 <div>
                     <figcaption>
-                        <h3>Leonardo Vinicius de Gasperin</h3>
+                        <h3 id="Name"></h3>
                         <hr class="insiderDivisor">
-                        <p id="welcomeText">
-                            	I am a Fullstack software developer with over 8 years of programming experience. Since I was 9 years old, I discovered my passion for technology
-                                and from there, I started my journey in the computer field. My first experience with programming language was at UNIOESTE University
-                                in computer science when I was 22 years old, and with my passion for video games, I always tried to create games and learned to structure the code in a more technical and analytical way.
-                                    Currently, I am interested in starting a career in Fullstack or Backend software development, with skills in ASP.NET and mobile applications 
-                                using React-Native, React, and ReactJS. I am also always looking to learn new technologies, such as .NET MAUI, and my specialty is the C# programming language.
-                                <br>
-                                    I am always looking for new challenges and opportunities to apply my software development skills and I am excited to explore new career possibilities.
-                        </p>
+                        <p id="welcome" class="welcomeText"></p>
                     </figcaption>
                 </div>
             </div>
@@ -43,7 +36,7 @@
     </section>
     <hr class="outsiderDivisor">
     <main>
-        <h4 class="cardTitle" style="padding-top: 5px; padding-bottom: 10px; margin: 0; background-color: #2A0D5D;" align="center">Highlighted projects</h4><div class="projects" style="display: grid;align-self: center;width: 100%;background-color: #2A0D5D;margin-bottom: 10px;margin-top: 0px;">
+        <!-- <h4 class="cardTitle" style="padding-top: 5px; padding-bottom: 10px; margin: 0; background-color: #2A0D5D;" align="center">Highlighted projects</h4><div class="projects" style="display: grid;align-self: center;width: 100%;background-color: #2A0D5D;margin-bottom: 10px;margin-top: 0px;">
             <div class="projects" style="justify-self: center; max-width: max-content; display: flex">
                 <div class="projectsDiv" style="display: flex; justify-content: center; gap: 2rem;">
                     <div style="justify-self: center; max-width: max-content; display: flex">
@@ -66,56 +59,31 @@
                     </div>
                 </div>
             </div>
-        </div><div class="specialCard">
-            <h4 class="cardTitle" align="center">Professional Experience</h4>
-            <hr class="insiderDivisor">
-            <ul>
+        </div> -->
+        <div class="specialCard">
+            <h4 id="titleExperience" class="cardTitle" align="center"></h4>
+            <hr class="insiderDivisor">            
+            <ul id="roles">
                 <label class="cardInsidetitle">Job titles</label>
-                <li>Junior Fullstack Analyst and Developer - programador.tv October 2022 to 03/29/2024</li>
             </ul>
         </div>
         <br>
         <div class="cardGroupDiv">
             <div class="card">
-                <h4 class="cardTitle" align="center">Education and certifications</h4>
+                <h4 id="certificationsTitle" class="cardTitle" align="center">Education and certifications</h4>
                 <hr class="insiderDivisor">
-                <ul>
+                <ul id="formation">
                     <label class="cardInsidetitle">Education</label>
-                    <li>High school diploma earned</li>
-                    <li>Incomplete undergraduate degree
-                        <ul>
-                            <li>University Claretiano - Batatais, SP. <br>Bachelor's Degree in Analysis and Systems Development - Second semester.</li>
-                        </ul>
-                    </li>
-                    <br>
-                    <label class="cardInsidetitle">Certifications</label>
-                    <li><a href="https://sgn.sesisenai.org.br/arquivos/certificacao/36/4c/1a/364c1a5b1b7285327ab9bd10eff52184/pfx9346935455688736227sfx.pdf" target="_blank">Certification Fullstack DevInHouse[EDP] SESI/SENAI-SC 2022/2023</a></li>
-                    <li><a href="https://www.udemy.com/certificate/UC-SL4WL76W/">Learn Intermediate Unity C# Coding on 31/12/2019</a></li>
-                    <li><a href="https://www.udemy.com/certificate/UC-LRHX4X6F/">C++: From Beginner to Expert on 05/03/2016</a></li>
-                    <li><a href="https://www.udemy.com/certificate/UC-F7XJLX7R/">Naked C#: A Beginner's Guide to Coding on 10/05/2019</a></li>
-                    <li><a href="https://www.udemy.com/certificate/UC-ZI2NNKDZ/">Unity 2D - Aprenda Game Design e Crie Seu Primeiro Jogo on 08/25/2019</a></li>
-                    <li><a href="https://www.udemy.com/certificate/UC-KG88HQSP/">Mathematics for Computer Games Development using Unity on 09/26/2019</a></li>
-                    <li><a href="https://www.udemy.com/certificate/UC-1bccf4e0-1049-496f-b46b-b4dd652bcf18/">Linux System Programming using C and C++(Practical Approach) on 02/15/2023</a></li>
-                    <li><a href="https://www.udemy.com/certificate/UC-48b3a94a-3fde-40e9-b827-8898e6bba0f8/">The Beginner's Guide to Artificial Intelligence (Unity 2022) on 02/15/2023</a></li>
+                </ul>
+                <ul id="certification">
+                    <label class="cardInsidetitle">Certificados</label>
                 </ul>
             </div>
             <div class="cardGroupDiv">
                 <div class="card">
-                    <h4 class="cardTitle" align="center">Public Projects</h4>
+                    <h4 id="projectTitle" class="cardTitle" align="center"></h4>
                     <hr class="insiderDivisor">
-                    <ul>
-                        <li><a href="https://github.com/alehRodrigues/desafio-balta-may-the-fourth-backend">Desafio May the Fourht (StarIS)</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/LabSchoolAPI">LabSchoolAPI</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/DevInKnowledge">DevInKnowledge</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/ProjectPAY">ProjectPAY</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/DevInDocuments">DevInDocuments</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/CEDPAPISolution">CEDPAPISolution</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/LearningAPI">LearningAPI</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/DjDogg">DjDogg</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/RPGTest2">RPGTest2(Unconscious-Dream)</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/RogueLike">RogueLike</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/BullCowGame">BullCowGame</a></li>
-                        <li><a href="https://github.com/leonardoGasperin/ExerciciosCap4">ExerciciosCap4(Programming Principles and Pratices with C++)</a></li>
+                    <ul id="projects">
                     </ul>
                 </div>
             </div>
@@ -123,101 +91,44 @@
         <br>
         <div class="cardGroupDiv">
             <div class="card">
-                <h4 class="cardTitle" align="center">Skills</h4>
+                <h4 id="skillTitle" class="cardTitle" align="center"></h4>
                 <hr class="insiderDivisor">
-                <ul>
-                    <li>Fullstack software development</li>
-                    <li>Mobile app development with React-Native, React, and ReactJS</li>
-                    <li>Knowledge of ASP.NET for web development</li>
-                    <li>Experience in game development using C and C# programming languages</li>
-                    <li>Requirements analysis and project specification skills</li>
-                    <li>Familiarity with agile software development methodologies such as Scrum and Kanban</li>
-                    <li>Familiarity with relational databases</li>
-                    <li>Problem-solving and analytical thinking skills</li>
-                    <li>Knowledge of software testing practices and code debugging</li>
-                    <li>Teamwork and effective communication skills</li>
-                    <li>Knowledge of game development in C# using Unity</li>
-                    <li>Mastery of the C# programming language</li>
+                <ul id="skills">
                 </ul>
             </div> 
         <div class="card">
-                <h4 class="cardTitle" align="center">Technical knowledge</h4>
+                <h4 id="tecno" class="cardTitle" align="center"></h4>
                 <hr class="insiderDivisor">
                 <div style="display: flex;">
-                    <ul>
-                        <li>C#</li>
-                        <li>.NET Core</li>
-                        <li>.NET Framework</li>
-                        <li>ASP.NET Core</li>
-                        <li>RESTful API</li>
-                        <li>Minimal API</li>
-                        <li>TDD</li>
-                        <li>Testes Unitários</li>
-                        <li>C</li>
-                        <li>Razor Pages</li>
-                        <li>Blazor</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Bootstrap 5.1</li>
-                        <li>JS</li>
-                        <li>JQuery</li>
-                        <li>React</li>
-                        <li>React-Native</li>
-                        <li>RabbitMQ</li>
-                        <li>Algoritmos e estrutura de dados</li>
-                        <li>Visual Studio</li>
-                        <li>Visual Studio Code</li>
-                        <li>GIT</li>
-                        <li>GitHub Actions</li>
-                        <li>CI/CD</li>
-                        <li>Docker</li>
-                        <li>Azure</li>
-                        <li>Digital Ocean</li>
+                    <ul id="Languages">
+                        <label class="cardInsidetitle">Languages</label>
                     </ul>
-                    <ul>
-                        <h4>Databases</h4>
-                        <li>SQL Server</li>
-                        <li>SQLite</li>
-                        <li>MSSQL</li>
-                        <li>DBeaver</li>
-                        <li>PostGre</li>
-                        <li>SQLite</li>
-                        <li>Postman</li>
-                    </ul>
+                    <div>
+                        <ul id="database">
+                            <label class="cardInsidetitle">Databases</label>
+                        </ul>
+                        <ul id="tools">
+                            <label class="cardInsidetitle">Tools</label>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
         <br>
         <div class="card" style="align-self: center;">
-            <h4 class="cardTitle" align="center">Personal library</h4>
+            <h4 id="libTitle" class="cardTitle" align="center"></h4>
             <hr class="insiderDivisor">
-            <ul>
+            <ul id="lang">
                 <label class="cardInsidetitle">Programming</label>
-                <li><a href="https://www.pearson.com/en-us/subject-catalog/p/programming-principles-and-practice-using-c/P200000000631?view=educator">Programming Principles and Practicles Using C++, Bjarne Stroustrup The creator of C++ - 2º Ed. Addison Wesley</a></li>
-                <li><a href="https://novatec.com.br/livros/android-essencial-com-kotlin-2ed/">Android Essencial com KOTLIN, Ricardo R. Lecheta - Novatec</a></li>
-                <li><a href="https://www.estantevirtual.com.br/livros/rodrigo-goncalves-porto-da-costa/universo-java/1968705140">Universo Java, Rodrigo Gonçalves Porto da Costa - Digeratibooks</a></li>
-                <li><a href="https://books.google.com.br/books/about/Oracle_DBA_Essencial_Vol_1.html?hl=pt-BR&amp;id=alKECgAAQBAJ&amp;redir_esc=y">Oracle DBA Essencial vol1. SQL, Eduardo Terra Morelli - Brasport</a></li>
-                <br>
+            </ul>
+            <ul id="comp">
                 <label class="cardInsidetitle">Computation</label>
-                <li><a href="https://www.casadocodigo.com.br/pages/sumario-git-github">Controlando versôes com Git e GitHub, Alexandre Aquiles, Rodrigo Ferreira - Casa do Codigo</a></li>
-                <li><a href="https://www.cs.vu.nl/~ast/">Modern Operating Systems, Tanenbaum - 2º Ed. Pearson</a></li>
-                <li><a href="https://www.oreilly.com/pub/au/5388">Shipping Greatness, Chris Vander Mey - O'Reilly</a></li>
-                <br>
+            </ul>
+            <ul id="games">
                 <label class="cardInsidetitle">Game development</label>
-                <li><a href="https://www.casadocodigo.com.br/products/livro-lean-game-development">Learn Game Development (Desenvolvimento enxuto de jogos), Julia Naomi Boeira - Casa do Código</a></li>
-                <li><a href="https://editorabrasport.com.br/design-de-jogos">Designer de jogos Fundamentos, Antonio Julio Pescuite - Brasport</a></li>
-                <li><a href="https://www.cengage.com.br/livro/mapa-do-jogo/">Mapa do jogo A diversidade cultural dos games, Lucia Santaella e Mirna Feitoza - Cengage Learning (Série profissional)</a></li>
-                <li><a href="https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-1/">Introdução ao desenvolvimento de Games: Volume 1 Entendendo o universo de jogos, Steve Rabin - 2º Ed. Cengage Learning</a></li>
-                <li><a href="https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-2/">Introdução ao desenvolvimento de Games: Volume 2 Programação: Técnica, Linguagem e Arquitetura, Steve Rabin - 2º Ed. Cengage Learning</a></li>
-                <li><a href="https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-3/">Introdução ao desenvolvimento de Games: Volume 3 Criação e produção audiovisual, Steve Rabin - 2º Ed. Cengage Learning</a></li>
-                <li><a href="https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-4/">Introdução ao desenvolvimento de Games: Volume 4 A industria de jogos: Produção, Marketing, Comercialização e Direitos autorais, Steve Rabin - 2º Ed. Cengage Learning</a></li>
-                <li><a href="https://www.cengage.com.br/livro/desenvolvimento-de-personagens-e-de-narrativas-para-games/">Desenvolvimento de personagens e de narrativas para Games, Lee Sheldon - 2º Ed. Cengage Learning</a></li>
-                <br>
-                <label class="cardInsidetitle">Possess</label>
-                <li><a href="https://www.cengage.com.br/livro/desenvolvimento-de-games/">Desenvolvimento de games, Jeannie Novak - 2º Ed. Cengage Learning</a></li>
-                <li><a href="https://www.amazon.com.br/Clipper-Versao-Summer-87-V-2/dp/8521609191">Clipper Versão Summer 87 Vol 2 Utilitarios construção de um sistema, Guia de programação, Antonio Geraldo da Rocha Vidal - 2º Ed. LTC</a></li>
-                <li><a href="https://www.traca.com.br/livro/558375/">Linguagem C Programação e Prática, Prof. Arthur Vargas Lopes, Prof. Bertilho Frederico Becker</a></li>
-                <li><a href="https://www.estantevirtual.com.br/livros/eber-assis-schmitz-antonio-anibal-de-souza-teles/pascal-e-tecnicas-de-programacao/1799343764?show_suggestion=0">Pascal E Técnicas de Programação Incluindo Turbo Pascal, Eber Assis Schmitz, Antônio Anibal de Souza Teles - 3º Ed. LTC</a></li>
+            </ul>
+            <ul id="belongs">
+                <label class="cardInsidetitle">belongings</label>
             </ul>
         </div>
     </main>
