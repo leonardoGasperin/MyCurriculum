@@ -1,10 +1,3 @@
-let cabecalho;
-let profficional;
-let educação;
-let projetos;
-let habilidades;
-let conhecimentos;
-let biblioteca;
 const isEnglish = window.location.href.includes("enUS")
 
 fetch('../../../archives.json')
@@ -17,21 +10,14 @@ fetch('../../../archives.json')
     })
 
 function processJson(data){
-    cabecalho = data.secoes[0];
-    profficional = data.secoes[1];
-    educação = data.secoes[2];
-    projetos = data.secoes[3];
-    habilidades = data.secoes[4];
-    conhecimentos = data.secoes[5];
-    biblioteca = data.secoes[6];
-
-    populaCabecalho(cabecalho);
-    populaProficional(profficional);
-    populaEducacao(educação);
-    populaProjetos(projetos);
-    populaHabilidades(habilidades);
-    populaConhecimentos(conhecimentos);
-    populaBiblioteca(biblioteca);
+    populaCabecalho(data.secoes[0]);
+    populaProficional(data.secoes[1]);
+    populaEducacao(data.secoes[2]);
+    populaProjetos(data.secoes[3]);
+    populaHabilidades(data.secoes[4]);
+    populaConhecimentos(data.secoes[5]);
+    populaBiblioteca(data.secoes[6]);
+    populaFooter(data.secoes[7]);
 }
 
 function populaCabecalho(data){
@@ -221,4 +207,14 @@ function populaBiblioteca(data){
                 <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
             `;
         });
+}
+
+function populaFooter(data){
+    const footer = document.getElementById("footerImg");
+
+    data.components.forEach(item => {
+        footer.innerHTML += `
+            <img align="center" height="40" width="40" alt="${item.alt}" src="${item.src}" />
+        `;
+    });
 }
