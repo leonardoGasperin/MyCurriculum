@@ -240,7 +240,7 @@ function populaFooter(data){
         `;
     });
 
-    copyrights.innerHTML += isEnglish ? `create & copyrights by Leonardo Vinicius de Gasperin,
+    copyrights.innerHTML = isEnglish ? `create & copyrights by Leonardo Vinicius de Gasperin,
                                         <br>
                                         The information on this site may be updated`
                                         : `create & copyrights by Leonardo Vinicius de Gasperin,
