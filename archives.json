@@ -97,43 +97,11 @@
                             "item": "The Beginner's Guide to Artificial Intelligence (Unity 2022) on 02/15/2023",
                             "link": "https://www.udemy.com/certificate/UC-48b3a94a-3fde-40e9-b827-8898e6bba0f8/"
                         }
-                    ],
-                    "textoEn": 
-                    [
-                        {
-                            "item": "Learn Intermediate Unity C# Coding on 31/12/2019",
-                            "link": "https://www.udemy.com/certificate/UC-SL4WL76W/"
-                        },
-                        {
-                            "item": "C++: From Beginner to Expert on 05/03/2016",
-                            "link": "https://www.udemy.com/certificate/UC-LRHX4X6F/"
-                        },
-                        {
-                            "item": "Naked C#: A Beginner's Guide to Coding on 10/05/2019",
-                            "link": "https://www.udemy.com/certificate/UC-F7XJLX7R/"
-                        },
-                        {
-                            "item": "Unity 2D - Aprenda Game Design e Crie Seu Primeiro Jogo on 08/25/2019",
-                            "link": "https://www.udemy.com/certificate/UC-ZI2NNKDZ/"
-                        },
-                        {
-                            "item": "Mathematics for Computer Games Development using Unity on 09/26/2019",
-                            "link": "https://www.udemy.com/certificate/UC-KG88HQSP/"
-                        },
-                        {
-                            "item": "Linux System Programming using C and C++(Practical Approach) on 02/15/2023",
-                            "link": "https://www.udemy.com/certificate/UC-1bccf4e0-1049-496f-b46b-b4dd652bcf18/"
-                        },
-                        {
-                            "item": "The Beginner's Guide to Artificial Intelligence (Unity 2022) on 02/15/2023",
-                            "link": "https://www.udemy.com/certificate/UC-48b3a94a-3fde-40e9-b827-8898e6bba0f8/"
-                        }
                     ]
                 }
             ]
         },
         {
-            "id": 4,
             "tituloBr": "Projetos publicos",
             "tituloEn": "Public Projects",
             "components":
@@ -182,7 +150,7 @@
                             "link": "https://github.com/leonardoGasperin/BullCowGame"
                         },
                         {
-                            "item": "ExerciciosCap4(Programming Principles and Pratices with C++)",
+                            "item": "Exercicios Cap4(Programming Principles and Pratices with C++)",
                             "link": "https://github.com/leonardoGasperin/ExerciciosCap4"
                         }
                     ],
@@ -229,7 +197,7 @@
                             "link": "https://github.com/leonardoGasperin/BullCowGame"
                         },
                         {
-                            "item": "ExerciciosCap4(Programming Principles and Pratices with C++)",
+                            "item": "Exercicies Cap4(Programming Principles and Pratices with C++)",
                             "link": "https://github.com/leonardoGasperin/ExerciciosCap4"
                         }
                     ]
@@ -660,34 +628,12 @@
             ]
         },
         {
-            "id": 7,
             "tituloBr": "Biblioteca Pessoal",
             "tituloEn": "Personal library",
             "components":
             [
                 {
-                    "subtituloBr": "Programação",
-                    "subtituloen": "Programming",
                     "textoBr":
-                    [
-                        {
-                            "item": "Programming Principles and Practicles Using C++, Bjarne Stroustrup The creator of C++ - 2º Ed. Addison Wesley",
-                            "link": "https://www.pearson.com/en-us/subject-catalog/p/programming-principles-and-practice-using-c/P200000000631?view=educator"
-                        },
-                        {
-                            "item": "Android Essencial com KOTLIN, Ricardo R. Lecheta - Novatec",
-                            "link": "https://novatec.com.br/livros/android-essencial-com-kotlin-2ed/"
-                        },
-                        {
-                            "item": "Universo Java, Rodrigo Gonçalves Porto da Costa - Digeratibooks",
-                            "link": "https://www.estantevirtual.com.br/livros/rodrigo-goncalves-porto-da-costa/universo-java/1968705140"
-                        },
-                        {
-                            "item": "Oracle DBA Essencial vol1. SQL, Eduardo Terra Morelli - Brasport",
-                            "link": "https://books.google.com.br/books/about/Oracle_DBA_Essencial_Vol_1.html?hl=pt-BR&amp;id=alKECgAAQBAJ&amp;redir_esc=y"
-                        }
-                    ],
-                    "textoEn": 
                     [
                         {
                             "item": "Programming Principles and Practicles Using C++, Bjarne Stroustrup The creator of C++ - 2º Ed. Addison Wesley",
@@ -708,24 +654,7 @@
                     ]
                 },
                 {
-                	"subtituloBr": "Computação",
-                    "subtituloen": "Computation",
                     "textoBr":
-                    [
-                        {
-                            "item": "Controlando versôes com Git e GitHub, Alexandre Aquiles, Rodrigo Ferreira - Casa do Codigo",
-                            "link": "https://www.casadocodigo.com.br/pages/sumario-git-github"
-                        },
-                        {
-                            "item": "Sistemas Operacionais Modernos, Tanenbaum - 2º Ed. Pearson",
-                            "link": "https://www.cs.vu.nl/~ast/"
-                        },
-                        {
-                            "item": "Lançamento de Software, Chris Vander Mey - O'Reilly",
-                            "link": "https://www.oreilly.com/pub/au/5388"
-                        }
-                    ],
-                    "textoEn": 
                     [
                         {
                             "item": "Controlando versôes com Git e GitHub, Alexandre Aquiles, Rodrigo Ferreira - Casa do Codigo",
@@ -742,44 +671,7 @@
                     ]
                 },
                 {
-                	"subtituloBr": "Desenvolvimento de jogos",
-                    "subtituloen": "Game development",
                     "textoBr":
-                    [
-                        {
-                            "item": "Learn Game Development (Desenvolvimento enxuto de jogos), Julia Naomi Boeira - Casa do Código",
-                            "link": "https://www.casadocodigo.com.br/products/livro-lean-game-development"
-                        },
-                        {
-                            "item": "Designer de jogos Fundamentos, Antonio Julio Pescuite - Brasport",
-                            "link": "https://editorabrasport.com.br/design-de-jogos/"
-                        },
-                        {
-                            "item": "Mapa do jogo A diversidade cultural dos games, Lucia Santaella e Mirna Feitoza - Cengage Learning (Série profissional)",
-                            "link": "https://www.cengage.com.br/livro/mapa-do-jogo/"
-                        },
-                        {
-                            "item": "Introdução ao desenvolvimento de Games: Volume 1 Entendendo o universo de jogos, Steve Rabin - 2º Ed. Cengage Learning",
-                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-1/"
-                        },
-                        {
-                            "item": "Introdução ao desenvolvimento de Games: Volume 2 Programação: Técnica, Linguagem e Arquitetura, Steve Rabin - 2º Ed. Cengage Learning",
-                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-2/"
-                        },
-                        {
-                            "item": "Introdução ao desenvolvimento de Games: Volume 3 Criação e produção audiovisual, Steve Rabin - 2º Ed. Cengage Learning",
-                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-3/"
-                        },
-                        {
-                            "item": "Introdução ao desenvolvimento de Games: Volume 4 A industria de jogos: Produção, Marketing, Comercialização e Direitos autorais, Steve Rabin - 2º Ed. Cengage Learning",
-                            "link": "https://www.cengage.com.br/livro/introducao-ao-desenvolvimento-de-games-volume-4/"
-                        },
-                        {
-                            "item": "Desenvolvimento de personagens e de narrativas para Games, Lee Sheldon - 2º Ed. Cengage Learning",
-                            "link": "https://www.cengage.com.br/livro/desenvolvimento-de-personagens-e-de-narrativas-para-games/"
-                        }
-                    ],
-                    "textoEn": 
                     [
                         {
                             "item": "Learn Game Development (Desenvolvimento enxuto de jogos), Julia Naomi Boeira - Casa do Código",
@@ -816,28 +708,7 @@
                     ]
                 },
                 {
-                	"subtituloBr": "Posses",
-                    "subtituloen": "Possess",
                     "textoBr":
-                    [
-                        {
-                            "item": "Desenvolvimento de games, Jeannie Novak - 2º Ed. Cengage Learning",
-                            "link": "https://www.cengage.com.br/livro/desenvolvimento-de-games"
-                        },
-                        {
-                            "item": "Clipper Versão Summer 87 Vol 2 Utilitarios construção de um sistema, Guia de programação, Antonio Geraldo da Rocha Vidal - 2º Ed. LTC",
-                            "link": "https://www.amazon.com.br/Clipper-Versao-Summer-87-V-2/dp/8521609191"
-                        },
-                        {
-                            "item": "Linguagem C Programação e Prática, Prof. Arthur Vargas Lopes, Prof. Bertilho Frederico Becker",
-                            "link": "https://www.traca.com.br/livro/558375/"
-                        },
-                        {
-                            "item": "Pascal E Técnicas de Programação Incluindo Turbo Pascal, Eber Assis Schmitz, Antônio Anibal de Souza Teles - 3º Ed. LTC",
-                            "link": "https://www.estantevirtual.com.br/livros/eber-assis-schmitz-antonio-anibal-de-souza-teles/pascal-e-tecnicas-de-programacao/1799343764?show_suggestion=0"
-                        }
-                    ],
-                    "textoEn": 
                     [
                         {
                             "item": "Desenvolvimento de games, Jeannie Novak - 2º Ed. Cengage Learning",
@@ -858,6 +729,9 @@
                     ]
                 }
             ]
+        },
+        {
+
         }
     ]
 }

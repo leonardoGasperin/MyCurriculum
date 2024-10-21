@@ -75,8 +75,8 @@ function populaEducacao(data){
     const formation = document.getElementById("formation");
     const certification = document.getElementById("certification");
 
+    titulo.innerHTML = isEnglish ? data.tituloEn : data.tituloBr;
     if(isEnglish){
-        titulo.innerHTML = data.tituloEn;
         data.components[0].textoEn.forEach(texto => {
             if(texto.link !== "")
                 formation.innerHTML += `
@@ -87,19 +87,8 @@ function populaEducacao(data){
                     <li>${texto.item}</li>
                 `;
         });
-        data.components[1].textoEn.forEach(texto => {
-            if(texto.link !== "")
-                certification.innerHTML += `
-                    <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
-                `
-            else
-                certification.innerHTML += `
-                    <li>${texto.item}</li>
-                `;
-        });
     }
     else{
-        titulo.innerHTML = data.tituloBr;
         data.components[0].textoBr.forEach(texto => {
             if(texto.link !== "")
                 formation.innerHTML += `
@@ -110,17 +99,19 @@ function populaEducacao(data){
                     <li>${texto.item}</li>
                 `;
         });
-        data.components[1].textoBr.forEach(texto => {
-            if(texto.link !== "")
-                certification.innerHTML += `
-                    <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
-                `
-            else
-                certification.innerHTML += `
-                    <li>${texto.item}</li>
-                `;
-        });
     }
+    
+    data.components[1].textoBr.forEach(texto => {
+        if(texto.link !== "")
+            certification.innerHTML += `
+                <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
+            `
+        else
+            certification.innerHTML += `
+                <li>${texto.item}</li>
+            `;
+    });
+
 }
 
 
@@ -174,42 +165,32 @@ function populaConhecimentos(data){
     const database = document.getElementById("database");
     const tools = document.getElementById("tools");
 
+    titulo.innerHTML = isEnglish ? data.tituloEn : data.tituloBr;
     if(isEnglish){
-        titulo.innerHTML = data.tituloEn;
         data.components[0].textoEn.forEach(texto => {
             languages.innerHTML += `
                     <li>${texto.item}</li>
                 `;
         });
-        data.components[1].textoEn.forEach(texto => {
-            database.innerHTML += `
-                    <li>${texto.item}</li>
-                `;
-        });
-        data.components[1].textoEn.forEach(texto => {
-            tools.innerHTML += `
-                    <li>${texto.item}</li>
-                `;
-        });
     }
     else{
-        titulo.innerHTML = data.tituloBr;
         data.components[0].textoBr.forEach(texto => {
             languages.innerHTML += `
                     <li>${texto.item}</li>
                 `;
         });
-        data.components[1].textoBr.forEach(texto => {
-            database.innerHTML += `
-                    <li>${texto.item}</li>
-                `;
-        });
-        data.components[2].textoBr.forEach(texto => {
-            tools.innerHTML += `
-                    <li>${texto.item}</li>
-                `;
-        });
     }
+    
+    data.components[1].textoBr.forEach(texto => {
+        database.innerHTML += `
+                <li>${texto.item}</li>
+            `;
+    });
+    data.components[2].textoBr.forEach(texto => {
+        tools.innerHTML += `
+                <li>${texto.item}</li>
+            `;
+    });
 }
 
 function populaBiblioteca(data){
@@ -219,31 +200,7 @@ function populaBiblioteca(data){
     const tools = document.getElementById("games");
     const belongings = document.getElementById("belongs");
 
-    if(isEnglish){
-        titulo.innerHTML = data.tituloEn;
-        data.components[0].textoEn.forEach(texto => {
-            languages.innerHTML += `
-                <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
-            `;
-        });
-        data.components[1].textoEn.forEach(texto => {
-            database.innerHTML += `
-                <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
-            `;
-        });
-        data.components[2].textoEn.forEach(texto => {
-            tools.innerHTML += `
-                <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
-            `;
-        });
-        data.components[3].textoEn.forEach(texto => {
-            belongings.innerHTML += `
-                <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
-            `;
-        });
-    }
-    else{
-        titulo.innerHTML = data.tituloBr;
+    titulo.innerHTML = isEnglish ? data.tituloEn : data.tituloBr;
         data.components[0].textoBr.forEach(texto => {
             languages.innerHTML += `
                 <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
@@ -259,10 +216,9 @@ function populaBiblioteca(data){
                 <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
             `;
         });
-        data.components[3].textoEn.forEach(texto => {
+        data.components[3].textoBr.forEach(texto => {
             belongings.innerHTML += `
                 <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
             `;
         });
-    }
 }
