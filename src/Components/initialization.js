@@ -1,13 +1,13 @@
-const isEnglish = window.location.href.includes("enUS")
+let isEnglish = false;
 
-fetch('../../../archives.json')
+fetch('archives.json')
     .then(r => r.json())
     .then(data => {
         processJson(data);
     })
     .catch(e => {
         console.log('Erro ao carregar JSON', e);
-    })
+    });
 
 function processJson(data){
     populaCabecalho(data.secoes[0]);
@@ -32,7 +32,9 @@ function populaCabecalho(data){
 function populaProficional(data){
     const titulo = document.getElementById("titleExperience");
     const conteudo = document.getElementById("roles");
-    
+
+    conteudo.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'Job titles' : 'Cargos'}</label>`;
+
     if(isEnglish){
         titulo.innerHTML = data.tituloEn
         data.components.forEach(component => {
@@ -60,6 +62,9 @@ function populaEducacao(data){
     const titulo = document.getElementById("certificationsTitle");
     const formation = document.getElementById("formation");
     const certification = document.getElementById("certification");
+
+    formation.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'Education' : 'Formação'}</label>`;
+    certification.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'Certifications' : 'Certificados'}</label>`;
 
     titulo.innerHTML = isEnglish ? data.tituloEn : data.tituloBr;
     if(isEnglish){
@@ -104,6 +109,9 @@ function populaEducacao(data){
 function populaProjetos(data){
     const titulo = document.getElementById("projectTitle");
     const conteudo = document.getElementById("projects");
+
+    conteudo.innerHTML = '';
+
     if(isEnglish){
         titulo.innerHTML = data.tituloEn;
         data.components[0].textoEn.forEach(texto => {
@@ -125,6 +133,8 @@ function populaProjetos(data){
 function populaHabilidades(data){
     const titulo = document.getElementById("skillTitle");
     const conteudo = document.getElementById("skills");
+
+    conteudo.innerHTML = '';
 
     if(isEnglish){
         titulo.innerHTML = data.tituloEn;
@@ -150,6 +160,10 @@ function populaConhecimentos(data){
     const languages = document.getElementById("Languages");
     const database = document.getElementById("database");
     const tools = document.getElementById("tools");
+
+    languages.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'Languages' : 'Linguagens'}</label>`;
+    database.innerHTML = `<label class="cardInsidetitle">Databases</label>`;
+    tools.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'Tools' : 'Ferramentas'}</label>`;
 
     titulo.innerHTML = isEnglish ? data.tituloEn : data.tituloBr;
     if(isEnglish){
@@ -182,9 +196,14 @@ function populaConhecimentos(data){
 function populaBiblioteca(data){
     const titulo = document.getElementById("libTitle");
     const languages = document.getElementById("lang");
-    const database = document.getElementById("comp");
-    const tools = document.getElementById("games");
+    const computing = document.getElementById("comp");
+    const games = document.getElementById("games");
     const belongings = document.getElementById("belongs");
+
+    languages.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'Programming' : 'Programação'}</label>`;
+    computing.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'Computing' : 'Computação'}</label>`;
+    games.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'Game development' : 'Desenvolvimento de jogos'}</label>`;
+    belongings.innerHTML = `<label class="cardInsidetitle">${isEnglish ? 'belongings' : 'Posses'}</label>`;
 
     titulo.innerHTML = isEnglish ? data.tituloEn : data.tituloBr;
         data.components[0].textoBr.forEach(texto => {
@@ -193,12 +212,12 @@ function populaBiblioteca(data){
             `;
         });
         data.components[1].textoBr.forEach(texto => {
-            database.innerHTML += `
+            computing.innerHTML += `
                 <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
             `;
         });
         data.components[2].textoBr.forEach(texto => {
-            tools.innerHTML += `
+            games.innerHTML += `
                 <li><a href="${texto.link}" target="_blank">${texto.item}</a></li>
             `;
         });
@@ -210,11 +229,21 @@ function populaBiblioteca(data){
 }
 
 function populaFooter(data){
-    const footer = document.getElementById("footerImg");
+    const footerImg = document.getElementById("footerImg");
+    const copyrights = document.getElementById("copyrights");
 
+
+    footerImg.innerHTML = '';
     data.components.forEach(item => {
-        footer.innerHTML += `
+        footerImg.innerHTML += `
             <img align="center" height="40" width="40" alt="${item.alt}" src="${item.src}" />
         `;
     });
+
+    copyrights.innerHTML = isEnglish ? `create & copyrights by Leonardo Vinicius de Gasperin,
+                                        <br>
+                                        The information on this site may be updated`
+                                        : `create & copyrights by Leonardo Vinicius de Gasperin,
+                                        <br>
+                                        As informações deste site podem ser atualizadas.`;
 }

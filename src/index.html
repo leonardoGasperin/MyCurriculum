@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../src/style/pageStyles.css">
-    <link rel="shortcut icon" href="../../../src/img/favicon/meufav.ico" type="image/x-icon">
-    <script src="../../../src/Components/initialization.js" defer></script>
+    <link rel="stylesheet" href="./style/pageStyles.css">
+    <link rel="shortcut icon" href="./img/favicon/meufav.ico" type="image/x-icon">
+    <script src="./Components/initialization.js" defer></script>
+    <script src="./Components/translate.js"></script>
     <title>Leonardo Gasperin</title>
 </head>
 <body>
@@ -23,8 +24,8 @@
                 </div>
             </div>
             <div id="translateDiv">
-                <a href="../enUS" class="communText">Translate</a>
-                <img align="center" height="30" width="40" alt="Leonardo-enUS" src="https://raw.githubusercontent.com/lipis/flag-icons/29edfe0288970b77976024832f1f3cf0a8667357/flags/1x1/us.svg" />            
+                <a id="translate" href="" class="communText">Translate</a>
+                <img id="translateimg" align="center" height="30" width="40" alt="Leonardo-enUS" src="https://raw.githubusercontent.com/lipis/flag-icons/29edfe0288970b77976024832f1f3cf0a8667357/flags/1x1/us.svg" />            
             </div>
         </figure>
         <br>
@@ -37,7 +38,8 @@
     </section>
     <hr class="outsiderDivisor">
     <main>
-        <!-- <h4 class="cardTitle" style="padding-top: 5px; padding-bottom: 10px; margin: 0; background-color: #2A0D5D;" align="center">Projetos em destaque</h4>
+        <!-- retirado pois nçao ha mais projeto em produção 
+        <h4 class="cardTitle" style="padding-top: 5px; padding-bottom: 10px; margin: 0; background-color: #2A0D5D;" align="center">Projetos em destaque</h4>
         <div class="projects" style="display: grid; align-self: center; width: 100%;  background-color: #2A0D5D; margin-bottom: 10px; margin-top: 0px;">
             <div class="projectsDiv" style="display: flex; justify-content: center; gap: 2rem;">
                 <div style="justify-self: center; max-width: max-content; display: flex">
@@ -64,7 +66,6 @@
             <h4 id="titleExperience" class="cardTitle" align="center"></h4>
             <hr class="insiderDivisor">
             <ul id="roles">
-                <label class="cardInsidetitle">Cargos</label>
             </ul>
         </div>
         <br>
@@ -73,11 +74,8 @@
                 <h4 id="certificationsTitle" class="cardTitle" align="center"></h4>
                 <hr class="insiderDivisor">
                 <ul id="formation">
-                    <label class="cardInsidetitle">Formação</label>
-
                 </ul>
                 <ul id="certification">
-                    <label class="cardInsidetitle">Certificados</label>
                 </ul>
             </div>
             <div class="card">
@@ -101,14 +99,11 @@
                 <hr class="insiderDivisor">
                 <div style="display: flex;">
                     <ul id="Languages">
-                        <label class="cardInsidetitle">Linguagens</label>
                     </ul>
                     <div>
                         <ul id="database">
-                            <label class="cardInsidetitle">Databases</label>
                         </ul>
                         <ul id="tools">
-                            <label class="cardInsidetitle">Ferramentas</label>
                         </ul>
                     </div>
                 </div>
@@ -119,16 +114,12 @@
             <h4 id="libTitle" class="cardTitle" align="center"></h4>
             <hr class="insiderDivisor">
             <ul id="lang">
-                <label class="cardInsidetitle">Programação</label>
             </ul>
             <ul id="comp">
-                <label class="cardInsidetitle">Computação</label>
             </ul>
             <ul id="games">
-                <label class="cardInsidetitle">Desenvolvimento de jogos</label>
             </ul>
             <ul id="belongs">
-                <label class="cardInsidetitle">Posses</label>
             </ul>
         </div>
     </main>
@@ -146,10 +137,7 @@
             <a href = "mailto:gasperinlvg@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=red" target="_blank"></a>   
         </div>
         <div align="center">
-            <span style=" color: darkgray;">
-                create & copyrights by Leonardo Vinicius de Gasperin,
-                <br>
-                As informações deste site podem ser atualizadas.
+            <span id="copyrights" style=" color: darkgray;">
             </span>
         </div>
     </footer>
