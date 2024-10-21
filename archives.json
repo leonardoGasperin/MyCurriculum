@@ -799,6 +799,10 @@
                 {
                     "src": "../../../src/img/footerIcons/git-original.svg",
                     "alt": "Leonardo-Git"
+                },
+                {
+                    "src": "../../../src/img/footerIcons/githubactions-plain.svg",
+                    "alt": "Leonardo-GitActions"
                 }
             ]
         }

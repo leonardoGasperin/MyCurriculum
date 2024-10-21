@@ -240,10 +240,13 @@ function populaFooter(data){
         `;
     });
 
-    copyrights.innerHTML = isEnglish ? `create & copyrights by Leonardo Vinicius de Gasperin,
+    copyrights.innerHTML += isEnglish ? `create & copyrights by Leonardo Vinicius de Gasperin,
                                         <br>
                                         The information on this site may be updated`
                                         : `create & copyrights by Leonardo Vinicius de Gasperin,
                                         <br>
                                         As informações deste site podem ser atualizadas.`;
+    footerImg.innerHTML += `<a href="https://github.com/leonardoGasperin" align="center" height="30" width="40" alt="Leonardo-Github">
+                                <img style="background-color: white; border-radius: 40%;" align="center" height="40" width="40" alt="Leonardo-GitHub" src="../../../src/img/footerIcons/github-original.svg" />
+                            </a>`;
 }
