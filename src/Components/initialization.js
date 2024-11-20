@@ -182,12 +182,12 @@ function populaConhecimentos(data){
     }
     
     data.components[1].textoBr.forEach(texto => {
-        database.innerHTML += `
+        tools.innerHTML += `
                 <li>${texto.item}</li>
             `;
     });
     data.components[2].textoBr.forEach(texto => {
-        tools.innerHTML += `
+        database.innerHTML += `
                 <li>${texto.item}</li>
             `;
     });
